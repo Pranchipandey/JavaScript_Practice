@@ -6,16 +6,26 @@
 
 }
 body{
-    display: flex;
-    justify-content:center;
-    align-items: center;
+
     min-height: 100vh;
     background:#2f363e;
 }
+.h1{
+   margin-left:35%;
+   margin-top:50px;
+   font-size: 80px;
+   font-family: cursive;
+   color:#fff;
+   font-weight: 100;
+}
 #time{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap:40px;
     color:#fff;
+    margin-left:5%;
+    margin-top:8%;
 }
 #time #circle{
     position: relative;
